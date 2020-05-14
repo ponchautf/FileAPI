@@ -20,7 +20,7 @@
     "phantomjs": "~1.9.7-9",
     "qs": "~2.4.1",
     "semver": "~5.0.0",
-    "temporary": "~0.0.8"
+    "temporary": "~1.1.0"
   },
   "peerDependencies": {},
   "description": "FileAPI — a set of  javascript tools for working with files. Multiupload, drag'n'drop and chunked file upload. Images: crop, resize and auto orientation by EXIF.",
