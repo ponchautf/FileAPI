@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: qs
+    versions:
+    - 6.10.0
+    - 6.9.6
+  - dependency-name: semver
+    versions:
+    - 7.3.4
+  - dependency-name: eventemitter2
+    versions:
+    - 6.4.3
